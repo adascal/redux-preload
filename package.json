@@ -10,7 +10,7 @@
   ],
   "author": "Blueberry Apps",
   "typings": "index",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "engines": {
     "node": ">=6.9",
     "npm": ">=3.10"
