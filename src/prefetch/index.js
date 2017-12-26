@@ -1,4 +1,5 @@
-import React, { PropTypes, Component, PureComponent } from 'react';
+import React, { Component, PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import getDisplayName from '../libs/getDisplayName';
 import PrefetchException from './PrefetchException';
 import serverPrefetch from './serverPrefetch';

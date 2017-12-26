@@ -2,7 +2,7 @@ import Promise from 'bluebird';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import extractDispatchedPromises from '../libs/extractDispatchedPromises';
-import ServerPrefetchProvider from './ServerPrefetchProvider.react';
+import ServerPrefetchProvider from './ServerPrefetchProvider';
 
 /**
  * Resets last prefetch cursor and invoke prefetch

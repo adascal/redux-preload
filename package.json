@@ -86,8 +86,9 @@
   "peerDependencies": {
     "babel-polyfill": ">=6",
     "bluebird": ">=3",
-    "react": ">=14.0.0 || >=0.13.0",
-    "react-dom": ">=14.0.0 || >=0.13.0"
+    "prop-types": ">=15.0.0",
+    "react": ">=15.0.0 || >=0.13.0",
+    "react-dom": ">=15.0.0 || >=0.13.0"
   },
   "dependencies": {
     "lodash.isarray": ">=4"

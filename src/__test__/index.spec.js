@@ -1,6 +1,7 @@
 /* eslint-disable react/no-multi-comp */
 import React, { Component } from 'react';
-import TestUtils from 'react-addons-test-utils';
+import PropTypes from 'prop-types';
+import TestUtils from 'react-dom/test-utils';
 import { createStore } from 'redux';
 import { jsdom } from 'jsdom';
 import { Provider } from 'react-redux';
@@ -25,7 +26,7 @@ describe('prefetch', () => {
         @connectPreload(({ action }) => ({ type: action }))
         class Container extends Component {
           static propTypes = {
-            action: React.PropTypes.string.isRequired
+            action: PropTypes.string.isRequired
           }
 
           render() {
@@ -49,7 +50,7 @@ describe('prefetch', () => {
         ])
         class Container extends Component {
           static propTypes = {
-            action: React.PropTypes.string.isRequired
+            action: PropTypes.string.isRequired
           }
 
           render() {
